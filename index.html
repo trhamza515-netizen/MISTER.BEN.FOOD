@@ -1,0 +1,364 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>MISTER BEN FOOD | Taste The Difference</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600;700&family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- NAVBAR -->
+    <header class="navbar">
+        <a href="#home" class="logo">
+            MISTER<span>BEN.</span>
+            <small>FOOD & GOOD MOOD</small>
+        </a>
+
+        <nav class="nav-links">
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#menu">Our Menu</a>
+            <a href="#gallery">Gallery</a>
+            <a href="#contact">Contact</a>
+        </nav>
+
+        <a href="#menu" class="nav-button">EXPLORE MENU ↗</a>
+
+        <button class="menu-toggle" aria-label="Open menu">☰</button>
+    </header>
+
+
+    <!-- HERO -->
+    <main>
+
+        <section class="hero" id="home">
+
+            <div class="hero-content">
+
+                <div class="hero-tag">
+                    <span></span> GOOD FOOD. GOOD MOOD.
+                </div>
+
+                <h1>
+                    HUNGRY?
+                    <span>LET'S FIX</span>
+                    THAT.
+                </h1>
+
+                <p>
+                    Big flavors, fresh ingredients and unforgettable
+                    moments. Welcome to the world of Mister Ben Food.
+                </p>
+
+                <div class="hero-buttons">
+                    <a href="#menu" class="primary-btn">
+                        DISCOVER OUR MENU <span>↗</span>
+                    </a>
+
+                    <a href="#about" class="secondary-btn">
+                        OUR STORY
+                    </a>
+                </div>
+
+                <div class="hero-info">
+                    <div>
+                        <strong>FRESH</strong>
+                        <small>EVERY DAY</small>
+                    </div>
+
+                    <div>
+                        <strong>REAL</strong>
+                        <small>GOOD TASTE</small>
+                    </div>
+
+                    <div>
+                        <strong>100%</strong>
+                        <small>GOOD MOOD</small>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="hero-image">
+                <div class="orange-circle"></div>
+
+                <img
+                    src="https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=1100"
+                    alt="Delicious burger"
+                >
+
+                <div class="image-sticker">
+                    <span>THE</span>
+                    <strong>GOOD<br>TASTE</strong>
+                    <span>STARTS HERE</span>
+                </div>
+
+                <div class="image-caption">
+                    MADE TO MAKE YOU HUNGRY.
+                </div>
+            </div>
+
+            <div class="hero-bottom">
+                <span>SCROLL DOWN ↓</span>
+                <span>AÏT MELLOUL · MOROCCO</span>
+            </div>
+
+        </section>
+
+
+        <!-- MARQUEE -->
+        <div class="marquee">
+            <div class="marquee-track">
+                <span>GOOD FOOD</span> ✳
+                <span>BIG FLAVORS</span> ✳
+                <span>GOOD MOOD</span> ✳
+                <span>FRESH MOMENTS</span> ✳
+                <span>GOOD FOOD</span> ✳
+                <span>BIG FLAVORS</span> ✳
+                <span>GOOD MOOD</span> ✳
+            </div>
+        </div>
+
+
+        <!-- ABOUT -->
+        <section class="about section" id="about">
+
+            <div class="about-image">
+                <img
+                    src="https://images.unsplash.com/photo-1555396273-367ea4eb4db5?w=1000"
+                    alt="Modern food restaurant"
+                >
+
+                <div class="about-number">01 / ABOUT US</div>
+            </div>
+
+            <div class="about-content">
+
+                <span class="section-label">WHO WE ARE</span>
+
+                <h2>
+                    NOT JUST FOOD.
+                    <span>IT'S A VIBE.</span>
+                </h2>
+
+                <p>
+                    Welcome to Mister Ben Food.
+
+                    A place where good taste meets good moments.
+                    We believe that great food is more than
+                    what's on your plate.
+                </p>
+
+                <p>
+                    It's about the atmosphere, the people
+                    and the memories you take with you.
+                </p>
+
+                <a href="#gallery" class="text-link">
+                    DISCOVER OUR WORLD ↗
+                </a>
+
+            </div>
+
+        </section>
+
+
+        <!-- MENU -->
+        <section class="menu-section section" id="menu">
+
+            <div class="section-top">
+                <div>
+                    <span class="section-label">FRESH & DELICIOUS</span>
+                    <h2>OUR <span>MENU.</span></h2>
+                </div>
+
+                <p>
+                    A little something for every craving.
+                    Find your next favorite.
+                </p>
+            </div>
+
+            <div class="menu-filters">
+
+                <button class="filter-btn active" data-category="all">
+                    ALL
+                </button>
+
+                <button class="filter-btn" data-category="burgers">
+                    BURGERS
+                </button>
+
+                <button class="filter-btn" data-category="sandwiches">
+                    SANDWICHES
+                </button>
+
+                <button class="filter-btn" data-category="pizza">
+                    PIZZA
+                </button>
+
+                <button class="filter-btn" data-category="drinks">
+                    DRINKS
+                </button>
+
+            </div>
+
+            <div class="menu-grid" id="menu-grid">
+                <!-- JavaScript adds menu items here -->
+            </div>
+
+            <p class="menu-note">
+                * DEMO MENU — ACTUAL DISHES AND PRICES WILL BE ADDED LATER.
+            </p>
+
+        </section>
+
+
+        <!-- GALLERY -->
+        <section class="gallery-section section" id="gallery">
+
+            <div class="section-top">
+                <div>
+                    <span class="section-label">TAKE A LOOK</span>
+                    <h2>FOOD <span>MOOD.</span></h2>
+                </div>
+
+                <p>
+                    Good food deserves to be seen.
+                </p>
+            </div>
+
+            <div class="gallery-grid">
+
+                <div class="gallery-item gallery-large">
+                    <img
+                        src="https://images.unsplash.com/photo-1550547660-d9450f859349?w=1000"
+                        alt="Burger"
+                    >
+                    <span>BIG FLAVORS.</span>
+                </div>
+
+                <div class="gallery-item">
+                    <img
+                        src="https://images.unsplash.com/photo-1513104890138-7c749659a591?w=800"
+                        alt="Pizza"
+                    >
+                    <span>FRESH MOMENTS.</span>
+                </div>
+
+                <div class="gallery-item">
+                    <img
+                        src="https://images.unsplash.com/photo-1544025162-d76694265947?w=800"
+                        alt="Grilled food"
+                    >
+                    <span>GOOD TASTE.</span>
+                </div>
+
+                <div class="gallery-item">
+                    <img
+                        src="https://images.unsplash.com/photo-1579751626657-72bc17010498?w=800"
+                        alt="Food"
+                    >
+                    <span>MADE WITH LOVE.</span>
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- EXPERIENCE -->
+        <section class="experience section">
+
+            <span class="section-label">THE MISTER BEN DIFFERENCE</span>
+
+            <h2>GOOD FOOD.<br><span>BETTER MOMENTS.</span></h2>
+
+            <div class="experience-grid">
+
+                <div class="experience-card">
+                    <span>01</span>
+                    <h3>THE FLAVOR</h3>
+                    <p>Great food makes every moment better.</p>
+                </div>
+
+                <div class="experience-card">
+                    <span>02</span>
+                    <h3>THE ATMOSPHERE</h3>
+                    <p>A place to relax, enjoy and share.</p>
+                </div>
+
+                <div class="experience-card">
+                    <span>03</span>
+                    <h3>THE MOMENTS</h3>
+                    <p>Little moments worth remembering.</p>
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- CONTACT -->
+        <section class="contact section" id="contact">
+
+            <div class="contact-content">
+
+                <span class="section-label">COME SAY HELLO</span>
+
+                <h2>
+                    GOOD FOOD
+                    <span>IS WAITING.</span>
+                </h2>
+
+                <p>
+                    Find us in Aït Melloul, Morocco.
+                    We'd love to welcome you.
+                </p>
+
+                <a
+                    href="https://www.google.com/maps/search/?api=1&query=Mister+Ben+Food+Ait+Melloul"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="primary-btn"
+                >
+                    FIND OUR LOCATION ↗
+                </a>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <!-- FOOTER -->
+    <footer class="footer">
+
+        <a href="#home" class="logo">
+            MISTER<span>BEN.</span>
+            <small>FOOD & GOOD MOOD</small>
+        </a>
+
+        <p>GOOD FOOD. GOOD MOOD. ALWAYS.</p>
+
+        <span>© 2026 MISTER BEN FOOD. ALL RIGHTS RESERVED.</span>
+
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
+
+
+
